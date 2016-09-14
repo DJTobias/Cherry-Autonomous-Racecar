@@ -1,3 +1,3 @@
 # CAR  
 Cherry Autonomous Racecar
-#NCAT Senior Design Project
+<br /> NCAT Electrical Engineeering Senior Design Project
