@@ -2,6 +2,10 @@
 Created by:
 Daniel Tobias
 Ryan Dellana
+Subscribes to stream and cmd_vel topics
+Encodes the time,twistLinearX,twistAngularZ into the filename of a streamer frame 
+Saves this as a jpeg into /home/ubuntu/TrainingIMG folder
+30mins ~5Gbs of pictures
 """
 
 #!/usr/bin/env python
@@ -17,7 +21,6 @@ import cv2
 print cv2.__version__
 import time
 from threading import Lock
-
 
 class logger(object):
 
@@ -50,7 +53,6 @@ class logger(object):
         rospy.loginfo("Angular: [%f, %f, %f]"%(msg.angular.x, msg.angular.y, msg.angular.z))
         with self.twistLock:
             self.twist = msg
-
 
 if __name__ == '__main__':
     try:
