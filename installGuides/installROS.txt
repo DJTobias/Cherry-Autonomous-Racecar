@@ -1,0 +1,5 @@
+Refer to these links on how to install ROS
+
+http://www.jetsonhacks.com/2016/10/12/robot-operating-system-ros-on-nvidia-jetson-tx1/
+https://github.com/jetsonhacks/installROSTX1/blob/master/installROS.sh
+http://wiki.ros.org/action/show/kinetic/Installation/Ubuntu?action=show&redirect=kinetic%2FInstallation%2FUbuntuARM
