@@ -1,0 +1,6 @@
+###This should only be done on a fresh flash on Jetpack with no cuda install or built samples.
+
+###Follow this guide on how to create a custom kernel and install the Intel RealSense R200
+###It is important to read the scripts or manually enter in the commands to get an idea of what is going on
+
+http://www.jetsonhacks.com/2016/10/06/intel-realsense-camera-installation-nvidia-jetson-tx1/
