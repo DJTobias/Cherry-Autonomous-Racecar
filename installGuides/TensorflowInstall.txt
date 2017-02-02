@@ -1,0 +1,6 @@
+Please refer to the links below on how to install Tensorflow on the Jetson TX1
+
+http://stackoverflow.com/questions/39783919/tensorflow-on-nvidia-tx1/
+or
+http://www.jetsonhacks.com/2016/12/30/install-tensorflow-on-nvidia-jetson-tx1-development-kit/
+http://www.jetsonhacks.com/2017/01/15/tensorflow-build-update-jetson-tx1/
