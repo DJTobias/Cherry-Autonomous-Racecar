@@ -1,10 +1,13 @@
-Refer to these links on how to install ROS
+###Refer to these links on how to install ROS
 
+### This project requires the use of an SSD as the rootfs for space reasons 
+### read through the installROS.sh script and manually enter lines into the terminal so you understand what you are doing
+### on line 15 of installROS.sh change it to sudo apt-get install ros-kinetic-desktop-full
 http://www.jetsonhacks.com/2016/10/12/robot-operating-system-ros-on-nvidia-jetson-tx1/
 https://github.com/jetsonhacks/installROSTX1/blob/master/installROS.sh
 http://wiki.ros.org/action/show/kinetic/Installation/Ubuntu?action=show&redirect=kinetic%2FInstallation%2FUbuntuARM
 
-car package requires these dependencies
+###car package requires these dependencies
 sudo apt-get install ros-kinetic-joy
 sudo apt-get install ros-kinetic-razor-imu-9dof
 sudo apt-get install ros-kinetic-rosserial
