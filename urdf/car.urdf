@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<robot name="car">
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size =".001 .001 .001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+  <joint name="base_link_to_right_front_steering" type="revolute">
+    <parent link="base_link"/>
+    <child link="right_front_steering"/>
+    <origin xyz="0.326 -0.125 0.054"/>
+    <axis   xyz="0 0 1"/>
+    <limit lower="-0.87" upper="0.87" effort="1000" velocity="1000"/>
+  </joint>
+
+  <link name="right_front_steering">
+    <visual>
+      <geometry>
+        <box size =".001 .001 .001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+  <joint name="right_front_steering_to_right_front_wheel" type="continuous">
+    <parent link="right_front_steering"/>
+    <child link="right_front_wheel"/>
+    <origin xyz="0.0 0.0 0.0"/>
+    <axis   xyz="0 1 0"/>
+  </joint>
+
+  <link name="right_front_wheel">
+    <visual>
+      <geometry>
+        <cylinder length ="0.043" radius="0.054"/>
+      </geometry>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+  <joint name="base_link_to_left_front_steering" type="revolute">
+    <parent link="base_link"/>
+    <child link="left_front_steering"/>
+    <origin xyz="0.326 0.125 0.054"/>
+    <axis   xyz="0 0 1"/>
+    <limit lower="-0.87" upper="0.87" effort="1000" velocity="1000"/>
+  </joint>
+
+  <link name="left_front_steering">
+    <visual>
+      <geometry>
+        <box size =".001 .001 .001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+  <joint name="left_front_steering_to_left_front_wheel" type="continuous">
+    <parent link="left_front_steering"/>
+    <child link="left_front_wheel"/>
+    <origin xyz="0.0 0.0 0.0"/>
+    <axis   xyz="0 1 0"/>
+  </joint>
+
+  <link name="left_front_wheel">
+    <visual>
+      <geometry>
+        <cylinder length ="0.043" radius="0.054"/>
+      </geometry>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+  <joint name="base_link_to_body" type="revolute">
+    <parent link="base_link"/>
+    <child link="body"/>
+    <origin xyz="0 0 0.054"/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-0.065" upper="0.065" effort="1000" velocity="1000"/>
+  </joint>
+
+  <link name="body">
+    <visual>
+      <geometry>
+        <box size ="0.58 0.2 0.01"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.12 0 0.054"/>
+    </visual>
+  </link>
+
+  <joint name="body_to_right_rear_wheel" type="continuous">
+    <parent link="body"/>
+    <child link="right_rear_wheel"/>
+    <origin xyz="0 -0.125 0.0"/>
+    <axis   xyz="0 1 0"/>
+  </joint>
+
+  <link name="right_rear_wheel">
+    <visual>
+      <geometry>
+        <cylinder length ="0.043" radius="0.054"/>
+      </geometry>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+  <joint name="body_to_left_rear_wheel" type="continuous">
+    <parent link="body"/>
+    <child link="left_rear_wheel"/>
+    <origin xyz="0 0.125 0.0"/>
+    <axis   xyz="0 1 0"/>
+  </joint>
+
+  <link name="left_rear_wheel">
+    <visual>
+      <geometry>
+        <cylinder length ="0.043" radius="0.054"/>
+      </geometry>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+  <joint name="body_to_imu" type="fixed">
+    <parent link="body"/>
+    <child link="imu"/>
+    <origin xyz="0.236 0 0.082"/>
+  </joint>
+
+  <link name="imu">
+    <visual>
+      <geometry>
+        <box size =".01 .01 .01"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+  <joint name="body_to_lidar" type="fixed">
+    <parent link="body"/>
+    <child link="lidar"/>
+    <origin xyz="0.339 0 0.107" rpy="0 0 3.1415926"/>
+  </joint>
+
+  <link name="lidar">
+    <visual>
+      <geometry>
+        <cylinder length ="0.020" radius="0.039"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+  <joint name="body_to_realsense" type="fixed">
+    <parent link="body"/>
+    <child link="realsense"/>
+    <origin xyz="0.226 -0.044 0.177"/>
+  </joint>
+ <!--   <origin xyz="0.226 -0.044 0.177"/>-->
+  <link name="realsense">
+    <visual>
+      <geometry>
+        <box size ="0.015 0.139 0.051"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.0075 0.044 -0.016"/>
+    </visual>
+  </link>
+
+  <joint name="body_to_camera_depth_optical_frame" type="revolute">
+    <parent link="body"/>
+    <child link="camera_depth_optical_frame"/>
+    <origin xyz="0.226 0.04 0.177" rpy="-1.57079 0 -1.57079"/>
+    <axis   xyz="0 0 1"/>
+    <limit lower="-0.001" upper="0.001" effort="1000" velocity="1000"/>
+  </joint>
+
+  <!-- rpy="-1.57079 1.57079 0" -->
+
+  <link name="camera_depth_optical_frame">
+    <visual>
+      <geometry>
+        <box size =".001 .001 .001"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+</robot>
+
+
