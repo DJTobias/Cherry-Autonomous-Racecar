@@ -1,4 +1,5 @@
 Please refer to the links below on how to install Tensorflow on the Jetson TX1
+Important you will need at least 12GB of swap to compile Tensorflow
 
 http://stackoverflow.com/questions/39783919/tensorflow-on-nvidia-tx1/
 or
