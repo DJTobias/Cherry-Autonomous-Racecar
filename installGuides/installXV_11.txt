@@ -1,0 +1,6 @@
+###Refer to link below on how to build the package for the XV-11 LIDAR
+###Build driver from source use my version instead https://github.com/DJTobias/xv_11_laser_driver
+
+http://wiki.ros.org/xv_11_laser_driver/Tutorials/Running%20the%20XV-11%20Node
+
+https://github.com/DJTobias/xv_11_laser_driver
