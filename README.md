@@ -10,4 +10,4 @@
 [![Alt text for your video](http://img.youtube.com/vi/-biNqjLkFGM/0.jpg)](https://www.youtube.com/watch?v=-biNqjLkFGM)
 
 <br/>
-Hardware instructions coming before April 2017
+Hardware instructions out before April 2017
