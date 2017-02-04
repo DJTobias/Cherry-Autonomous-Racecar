@@ -1,0 +1,10 @@
+##create a swapfile at the current working directory
+##created on SSD
+
+sudo fallocate -l 16G swapfile
+sudo chmod 600 swapfile
+mkswap swapfile
+swapon swapfile
+swapon -s
+sudo gedit /etc/fstab
+/home/ubuntu/swapfile none swap sw 0 0
