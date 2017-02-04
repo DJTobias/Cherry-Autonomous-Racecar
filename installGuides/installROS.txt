@@ -7,11 +7,20 @@ http://www.jetsonhacks.com/2016/10/12/robot-operating-system-ros-on-nvidia-jetso
 https://github.com/jetsonhacks/installROSTX1/blob/master/installROS.sh
 http://wiki.ros.org/action/show/kinetic/Installation/Ubuntu?action=show&redirect=kinetic%2FInstallation%2FUbuntuARM
 
+##Create workspace
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
+catkin_init_workspace
+
+cd ~/catkin_ws/
+catkin_make
+
+
 ###car package requires these dependencies
-sudo apt-get install ros-kinetic-joy
-sudo apt-get install ros-kinetic-razor-imu-9dof
-sudo apt-get install ros-kinetic-rosserial
-sudo apt-get install ros-kinetic-rosserial-python
-sudo apt-get install ros-kinetic-rosserial-arduino
-sudo apt-get install ros-kinetic-pcl-conversions
-sudo apt-get install ros-kinetic-pcl-ros
+sudo apt-get install ros-kinetic-joy -y
+sudo apt-get install ros-kinetic-razor-imu-9dof -y
+sudo apt-get install ros-kinetic-rosserial -y
+sudo apt-get install ros-kinetic-rosserial-python -y
+sudo apt-get install ros-kinetic-rosserial-arduino -y
+sudo apt-get install ros-kinetic-pcl-conversions -y
+sudo apt-get install ros-kinetic-pcl-ros -y
