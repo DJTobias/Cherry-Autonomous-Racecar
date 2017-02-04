@@ -10,5 +10,6 @@
 9. Install CAR ROS package and dependencies
 10. Follow steps in installRealSenseR200ROS install to SSD Jetpack
 11. Follow steps in installXV_11  install to SSD Jetpack
+12. Create swapspace from createSwap.txt
 12. Follow steps in installTensorFlow to SSD Jetpack
 13. (Optional) compile OpenCV 3.1 from source
