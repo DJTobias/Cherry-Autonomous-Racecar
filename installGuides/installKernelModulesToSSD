@@ -1,0 +1,8 @@
+##This will move the custom kernel that was compiled in the installRealSenseR200 step and move it to the correct location on the SSD modules
+##
+
+cd /media/ubuntu/eMMC/lib/modules
+sudo cp -a 3.10.96-jetsonbot/ /lib/modules/
+sudo depmod
+sudo modprobe uvcvideo
+lsmod
