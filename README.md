@@ -7,7 +7,7 @@
 <br/>
 
 ### Tear down
-[![Alt text for your video](http://img.youtube.com/vi/-biNqjLkFGM/0.jpg)](https://www.youtube.com/watch?v=-biNqjLkFGM)
+[![Alt text for your video](http://img.youtube.com/vi/-biNqjLkFGM/0.jpg)](https://youtu.be/HHdqdwMvcN8)
 
 <br/>
 Hardware instructions out before April 2017
