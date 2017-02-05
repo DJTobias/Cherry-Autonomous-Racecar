@@ -1,6 +1,19 @@
-Please refer to the links below on how to install Tensorflow on the Jetson TX1
-Important you will need at least 12GB of swap to compile Tensorflow
+##Please refer to the links below on how to install Tensorflow on the Jetson TX1
+##Important you will need at least 12GB of swap to compile Tensorflow
 
+
+## The instructions from this article have been verified and works with the Tensorflow code that come with the CAR project
+http://www.jetsonhacks.com/2016/12/30/install-tensorflow-on-nvidia-jetson-tx1-development-kit/
+#dependencies
+https://raw.githubusercontent.com/jetsonhacks/installTensorFlowTX1/master/scripts/installDependencies.sh
+#.whl file
+https://drive.google.com/file/d/0B7XEwBRtE1aleTlxb091R2U3VEk/view?usp=sharing
+#make sure you are in the current directory of where the .whl file is located
+pip install tensorflow-0.11.0-py2-none-any.whl
+
+
+
+##If the above install fails or does not work you may have to build Tensorflow the painful way from one of these links
 http://stackoverflow.com/questions/39783919/tensorflow-on-nvidia-tx1/
 or
 http://www.jetsonhacks.com/2016/12/30/install-tensorflow-on-nvidia-jetson-tx1-development-kit/
