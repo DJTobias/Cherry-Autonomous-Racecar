@@ -2,13 +2,5 @@
 ###You must have installed the custom kernel
 ###Do not do this step unless you have switched to running the filesystem off the SSD
 
-###Once you are running off the SSD do these steps below
-###This will copy the modules off the internal eMMC of the TX1 to the SSD where the filesystem is located
-cd /media/ubuntu/eMMC/lib/modules
-sudo cp -a 3.10.96-jetsonbot/ /lib/modules/
-sudo depmod
-sudo modprobe uvcvideo
-lsmod
-
-### Install Intel RealSense R200 ros package
+l RealSense R200 ros package
 http://www.jetsonhacks.com/2016/10/26/intel-realsense-package-for-ros-on-nvidia-jetson-tx1/
