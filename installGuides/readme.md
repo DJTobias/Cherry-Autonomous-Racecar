@@ -1,4 +1,4 @@
-##Install Order
+##Install Order for Jetson TX1
 1. Flash Jetpack on Jetson TX1
 2. Preinstall script on Jetson TX1
 3. installRealSenseR200 install to Jetson TX1
@@ -11,5 +11,13 @@
 10. Follow steps in installRealSenseR200ROS install to SSD Jetpack
 11. Follow steps in installXV_11  install to SSD Jetpack
 12. Create swapspace from createSwap
-12. Follow steps in installTensorFlow to SSD Jetpack
-13. (Optional) compile OpenCV 3.1 with CUDA and Gtreamer support from source
+13. Follow steps in installTensorFlowCUDA for SSD Jetpack
+14. Follow steps in installTensorFlow for SSD Jetpack
+15. (Optional) compile OpenCV 3.1 with CUDA and Gtreamer support from source
+<br/>
+
+##Install order Host PC
+1. installROS_HOSTPC.sh
+2. installCUDA_CUDNN
+3. installTensorFlow
+
