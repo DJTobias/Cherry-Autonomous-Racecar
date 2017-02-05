@@ -3,4 +3,10 @@
 
 http://wiki.ros.org/xv_11_laser_driver/Tutorials/Running%20the%20XV-11%20Node
 
-https://github.com/DJTobias/xv_11_laser_driver
+
+cd catkin_ws/src
+git clone https://github.com/DJTobias/xv_11_laser_driver
+cd ..
+catkin_make
+source devel/setup.bash
+
