@@ -9,9 +9,10 @@
 ##Tested with Tegra210_Linux_R24.2.1_aarch64.tbz2
 ##Tested with Tegra_Linux_Sample-Root-Filesystem_R24.2.1_aarch64.tbz2
 
-###This process was done on a Lenovo Thinkpad with a ultrabay expansion for an extra SSD as seen here http://a.co/ctPOGup
+###This process was done on a Lenovo Thinkpad laptop running Ubuntu 16.04 with an ultrabay expansion to 
+###swap in and out a SSD as seen here http://a.co/ctPOGup
 
-###Done on HOST PC go to
+###Done on HOST PC(laptop) go to
 https://developer.nvidia.com/embedded/linux-tegra
 ###download latest version .
 download Jetson TX1 64-bit Driver Package
@@ -43,13 +44,10 @@ sudo cp -a * /mnt/jetson && sync
 sudo umount /mnt/jetson
 
 ###Turn on JetsonTX1 with previous clean installation of jetpack.
-###Tested with clean install of Jetpack 2.2.1
 
 cd /boot/extlinux
 ls
 sudo gedit extlinux.conf
-
-
 
 ###locate argument "root=/dev/mmcblk0p1" or something similar to this near the end
 ###change to "root=/dev/sda"  
