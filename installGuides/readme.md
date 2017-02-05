@@ -12,4 +12,4 @@
 11. Follow steps in installXV_11  install to SSD Jetpack
 12. Create swapspace from createSwap
 12. Follow steps in installTensorFlow to SSD Jetpack
-13. (Optional) compile OpenCV 3.1 from source
+13. (Optional) compile OpenCV 3.1 with CUDA and Gtreamer support from source
