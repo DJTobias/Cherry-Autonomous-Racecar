@@ -25,7 +25,10 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 """
-
+"""
+Original net from the paper had 1164 n_neurons on the first fully-connected layer instead of 512.  
+Halving the amount of neurons on the first FC layer reduced the size of trained model by half and sped up training.
+"""
 
 import tensorflow as tf
 import numpy as np
