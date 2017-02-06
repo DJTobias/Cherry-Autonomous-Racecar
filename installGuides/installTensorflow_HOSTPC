@@ -1,0 +1,13 @@
+# Guide to install TensorFlow on a computer running Ubuntu 16.04
+
+sudo apt-get install python-pip
+pip install --upgrade pip
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.11.0-cp27-none-linux_x86_64.whl
+sudo pip install --upgrade $TF_BINARY_URL
+export 'LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"' >> ~/.bashrc
+export 'CUDA_HOME=/usr/local/cuda' >> ~/.bashrc
+source ~/.bashrc
+
+#Test install in new terminal
+python
+import tensorflow as tf
