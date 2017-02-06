@@ -1,7 +1,7 @@
 # Cherry Autonomous Racecar (CAR)
 <br/> 
 ## NCAT Electrical and Computer Engineering Senior Design Project
-<br/> 
+
 
 ### Trial run
 [![Alt text for your video](http://img.youtube.com/vi/x3ub8OhKxhM/0.jpg)](https://www.youtube.com/watch?v=x3ub8OhKxhM)
@@ -12,4 +12,5 @@
 
 <br/>
 Hardware instructions out before April 2017
-
+<br/>
+https://djtobias.github.io/Cherry-Autonomous-Racecar/
