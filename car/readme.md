@@ -6,7 +6,7 @@ https://drive.google.com/drive/folders/0Bx1XHaRXk3kSY1pfaW9hOVU4RWc
 Copy all three files into the scripts folder of the CAR ROS package
 <br/>
 ___
-##CAR Controls for Xbox 360
+##CAR controls for Xbox 360
 
 ![Alt text](/pictures/controllerCAR.png "Title")
 
