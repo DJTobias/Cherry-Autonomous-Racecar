@@ -8,5 +8,5 @@ Copy all three files into the scripts folder of the CAR ROS package
 ___
 ##CAR Controls for Xbox 360
 
-![Alt text](controllerCAR.png "Title")
+![Alt text](/pictures/controllerCAR.png "Title")
 
