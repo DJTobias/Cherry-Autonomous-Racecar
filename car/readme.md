@@ -5,4 +5,4 @@ https://drive.google.com/drive/folders/0Bx1XHaRXk3kSY1pfaW9hOVU4RWc
 <br/>
 Copy all three files into the scripts folder of the CAR ROS package
 <br/>
-![Alt text](controllerCAR.png?raw=true "Title")
+![Alt text](controllerCAR.png "Title")
