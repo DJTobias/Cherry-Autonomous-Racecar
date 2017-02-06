@@ -17,7 +17,7 @@
 <br/>
 
 ##Install order Host PC
-1. installROS_HOSTPC.sh
-2. installCUDA_CUDNN
-3. installTensorFlow
+1. installROS_HOSTPC
+2. installCUDA_cuDNN_HOSTPC
+3. installTensorFlow_HOSTPC
 
