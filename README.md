@@ -1,6 +1,6 @@
 # Cherry Autonomous Racecar (CAR)
 <br/> 
-
+## NCAT Electrical and Computer Engineering Senior Design Project
 <br/> 
 
 ### Trial run
