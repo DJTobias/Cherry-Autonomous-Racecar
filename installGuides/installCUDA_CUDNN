@@ -1,0 +1,18 @@
+# Make sure your system is using the proprietary nvidia GPU drivers.
+# Install cuda toolkit 8.0
+# Download from: https://developer.nvidia.com/cuda-downloads
+# in terminal change to directory where file was downloaded
+sudo dpkg -i cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64.deb
+sudo apt-get update
+sudo apt-get install cuda
+echo "export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:\$LD_LIBRARY_PATH" >> ~/.bashrc
+
+# Download cuDNN from: https://developer.nvidia.com/cudnn
+# in terminal change to directory where file was downloaded
+tar -zxvf cudnn-8.0-linux-x64-v5.1.tgz
+sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+sudo apt-get update
+sudo apt-get upgrade
