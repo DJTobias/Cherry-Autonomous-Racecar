@@ -1,1 +1,3 @@
-##urdf model of the CAR 
+##Cherry Autonomous Racecar URDF
+
+![Alt text](/pictures/rviz_urdf.png "Title")
