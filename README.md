@@ -1,8 +1,8 @@
 # Cherry Autonomous Racecar (CAR)
 <br/> 
-
-<img src="/pictures/car_vert_r.JPG" height="600" width="500">
-
+<p align="center">
+<img src="/pictures/car_vert_r.JPG" height="960" width="649">
+</p>
 ## NCAT Electrical and Computer Engineering Senior Design Project
 
 
