@@ -1,7 +1,8 @@
 # Cherry Autonomous Racecar (CAR)
 ## NCAT Electrical and Computer Engineering Senior Design Project
-<img src="https://github.com/DJTobias/Cherry-Autonomous-Racecar/blob/master/pictures/car_vert_r_mod.jpg" height="960" width="640">
 
+
+![Alt text](/pictures/car_vert_r_scale.jpg "Title")
 <br/>
 
 ### Trial run
