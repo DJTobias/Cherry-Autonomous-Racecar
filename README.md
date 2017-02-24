@@ -2,8 +2,10 @@
 ## NCAT Electrical and Computer Engineering Senior Design Project
 
 
-[![Alt text](/pictures/car_vert_r_scale.jpg)] ("Front View CAR")
+![Alt text](/pictures/car_vert_r_scale.jpg "Front View CAR")
 <br/>
+
+
 
 ### Trial run
 [![Alt text for your video](http://img.youtube.com/vi/x3ub8OhKxhM/0.jpg)](https://www.youtube.com/watch?v=x3ub8OhKxhM)
