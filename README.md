@@ -1,5 +1,4 @@
-# Cherry Autonomous Racecar (CAR)
-## NCAT ECE Senior Design Project
+# Cherry Autonomous Racecar (CAR) <br/>NCAT ECE Senior Design Project
 
 ##[Article on JetsonHacks](http://www.jetsonhacks.com/2017/03/02/daniel-tobias-car-cherry-autonomous-racecar/)
 
@@ -19,6 +18,5 @@
 <br/>
 Hardware instructions out before April 2017
 <br/>
-Article
-<br/>
+
 
