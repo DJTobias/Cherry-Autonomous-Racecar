@@ -13,7 +13,7 @@
 <br/>
 
 ### Tear down
-[![Tear down of CAR](http://img.youtube.com/vi/-biNqjLkFGM/0.jpg)](https://youtu.be/HHdqdwMvcN8)
+[![Tear down of CAR](http://img.youtube.com/vi/HHdqdwMvcN8/0.jpg)](https://youtu.be/HHdqdwMvcN8)
 
 <br/>
 Hardware instructions out before April 2017
