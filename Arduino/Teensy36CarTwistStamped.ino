@@ -137,7 +137,7 @@ void driveCallback ( const geometry_msgs::TwistStamped&  twistMsg )
   
 }
 
-ros::Subscriber<geometry_msgs::TwistStamped> driveSubscriber("/jetsoncar_teleop_joystick/cmd_vel", &driveCallback) ;
+ros::Subscriber<geometry_msgs::TwistStamped> driveSubscriber("/cmd_vel", &driveCallback) ;
 
 void setup() {
   pinMode(38, INPUT);
