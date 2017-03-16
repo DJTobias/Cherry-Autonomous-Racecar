@@ -1,0 +1,16 @@
+##There are other ways to install CUDA and cudnn online, this just happens to be the simplest
+##You need to connect A host computer and the Jetson TX1 on the same network
+
+##Rerun JetPack-L4T-X.X-linux-x64.run on host computer
+
+./JetPack-L4T-2.3-linux-x64.run
+#hit next
+#Select TX1 Dev Kit
+
+##When you get to the component manager hit "Clear Actions" button in the top right of the window
+#Find Cuda Toolkit for L4T under Action column change from no action to install
+#Do the same for cuDNN Package and TensorRT
+#Hit Next and accept terms
+#Hit Next
+#Enter the IP address of the Jetson TX1 board and username and password
+#Wait while the host copies and installs cuda on the Jetson 
