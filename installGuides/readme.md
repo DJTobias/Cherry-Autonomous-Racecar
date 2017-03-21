@@ -1,4 +1,4 @@
-##Install Order for Jetson TX1
+## Install Order for Jetson TX1
 1. Flash Jetpack on Jetson TX1
 2. Preinstall script on Jetson TX1
 3. installRealSenseR200 install to Jetson TX1
@@ -16,7 +16,7 @@
 15. (Optional) compile OpenCV 3.1 with CUDA and Gtreamer support from source
 <br/>
 
-##Install order Host PC
+## Install order Host PC
 1. installROS_HOSTPC
 2. installCUDA_cuDNN_HOSTPC
 3. installTensorFlow_HOSTPC
