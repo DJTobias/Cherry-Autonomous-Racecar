@@ -1,12 +1,12 @@
-#Arduino code for the Teensy 3.6 microcontroller
-##On host PC
-###Setup Arduino 
+# Arduino code for the Teensy 3.6 microcontroller
+## On host PC
+### Setup Arduino 
 https://www.arduino.cc/en/Guide/Linux
 <br/>
 https://www.arduino.cc/download_handler.php?f=/arduino-1.8.1-linux64.tar.xz
 <br/>
 
-###Setup Teensyduino 
+### Setup Teensyduino 
 https://www.pjrc.com/teensy/td_download.html
 <br/>
 Save the text in the link below as a file named "49-teensy.rules"
@@ -16,7 +16,7 @@ https://www.pjrc.com/teensy/49-teensy.rules
 sudo cp 49-teensy.rules /etc/udev/rules.d/
 
 
-###Install ROS Kinetic packages and ros_lib
+### Install ROS Kinetic packages and ros_lib
 sudo apt-get install ros-kinetic-rosserial-arduino ros-kinetic-rosserial -y
 <br/>
 <br/>
