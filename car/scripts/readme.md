@@ -1,6 +1,6 @@
-###Trained TF models should be place in this location
+### Trained TF models should be place in this location
 <br/>
-###You will have to make the folders for dataRecorder.py
+### You will have to make the folders for dataRecorder.py
 
 cd
 <br/>
