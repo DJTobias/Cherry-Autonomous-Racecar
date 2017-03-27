@@ -13,5 +13,5 @@ rosrun car runModel.py
 ___
 ## CAR controls for Xbox 360
 
-![Alt text](/pictures/controllerCAR.png "CAR Controller")
+![Xbox Controller](/pictures/controllerCAR.png "CAR Controller")
 
