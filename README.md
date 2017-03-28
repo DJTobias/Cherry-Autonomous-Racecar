@@ -13,6 +13,6 @@
 
 ### Tear down
 [![Tear down of CAR](http://img.youtube.com/vi/HHdqdwMvcN8/0.jpg)](https://youtu.be/HHdqdwMvcN8)
-## [Hardware Schematic](/hardware/CAR_hardware_schematic.pdf)
+## [Hardware Schematic](/hardware/CAR_hardware_design.pdf)
 
 
